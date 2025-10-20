@@ -1,3 +1,4 @@
+import answers from "answers.js"
 const currentDate = new Date();
 const dayOfMonth = currentDate.getDate();
 function getWordle(){
