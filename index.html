@@ -1,0 +1,16 @@
+<h1>is today's wordle aesir?</h1>
+<h2>a website designed to help paranoid people not get accused of cheating, without cheating themselves!</h2>
+first guess: <input id="guess"><br>
+<button onclick="document.getElementById("result").innerHTML = doIt()">check</button>
+<p id="result"></p>
+<script src="answers.js"></script> 
+<script src="main.js"></script> 
+<script>
+  function doit(){
+    if (checkWordle(document.getElementById('guess').innerHTML){
+      return("it is " + document.getElementById('guess').innerHTML);
+    } else {
+      return("it isnt");
+    };
+  };
+</script>
